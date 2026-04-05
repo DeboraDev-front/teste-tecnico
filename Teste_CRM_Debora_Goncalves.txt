@@ -1,0 +1,14 @@
+Processo de Desenvolvimento e Impressões Técnicas
+1. Primeiras Impressões
+Ao iniciar o desafio da Rockin' Shop, minha prioridade foi garantir a estrutura base utilizando a técnica de tabelas aninhadas (table, tr, td), que é o padrão ouro para a renderização correta em clientes de e-mail mais rígidos, como o Outlook Desktop. O maior foco foi transformar um layout estático em um código fluido e resiliente.
+
+2. Desafios e Soluções Aplicadas
+
+Alinhamento Vertical dos Produtos: Um dos maiores desafios foi lidar com títulos de tamanhos diferentes na vitrine (como o caso do "Ray-Ban", que tem apenas uma linha). Para evitar que as imagens e preços ficassem desalinhados horizontalmente, utilizei uma técnica de compensação com alturas fixas e o uso de caracteres invisíveis (&nbsp;). Isso garantiu que o grid visual permanecesse intacto, independentemente do conteúdo.
+
+Adaptação Tipográfica: Notei que algumas fontes e tamanhos do briefing poderiam comprometer a legibilidade ou a estrutura em telas menores. Optei por utilizar "Web Safe Fonts" (Arial e Georgia) e ajustar levemente o font-size e line-height. Essa decisão foi tomada para garantir que o e-mail seja lido perfeitamente em qualquer dispositivo, priorizando a experiência do usuário e a conversão.
+
+Botões (CTAs): Para o detalhe da seta nos botões, escolhi utilizar o caractere Unicode &#10132;. Essa escolha técnica evita o carregamento de imagens externas desnecessárias e garante que o ícone apareça mesmo se o usuário estiver com o download de imagens bloqueado.
+
+3. Conclusão e Aprendizado
+Este teste foi uma excelente oportunidade para aprofundar meus conhecimentos em HTML/CSS focado em e-mail marketing, que possui limitações muito específicas comparado ao desenvolvimento web tradicional. Entendi que, no CRM, o design deve caminhar junto com a viabilidade técnica. Estou em constante aprendizado e muito motivada para aplicar essas práticas em cenários reais, buscando sempre o equilíbrio entre a estética do briefing e a performance de entrega.
